@@ -1,0 +1,204 @@
+ @media screen and (max-width: 9999px){
+        #footer,#header{
+            padding: 0px 11px;
+            width: 100%;
+        }
+    }
+/* Ipad ngang 1024x768 */
+    @media screen and (max-width: 1024px){
+       /* ----------------------HEADER--------------------- */
+       .wp-inner{
+        width: 100%;
+    }
+       #header{
+           
+        text-align: center;
+    }
+    #main-menu{ display: none; }
+    #logo{
+        display: inline-block;
+        float: none;
+    }
+    #logo a{
+     padding-bottom: 16px;
+    }
+   #box-search input{
+       display: none;
+   }
+   #box-search i{
+    font-size: 23px;
+   }
+    /* ---------------------CONTENT------------------ */
+    #wp-content{
+        padding: 0px 20px;
+    }
+    #content{
+        padding-right: 0;
+    }
+    #sidebar{
+        display: none;
+    }
+    #content{
+        width: 100%;
+    }
+    #content .widget-cover .post-cover{
+            width: 100%;
+        }
+        .post-thumb{
+            width: 48%;
+            float: left;
+        }
+        .post-infor{
+            width: 48%;
+            float: right;
+        }
+        #content .post-cover .post-title a{
+            margin: 0px 0px 15px 0px;
+        }
+        .list-post-cover{
+            float: none;
+        }
+        #content .widget-cover ul.list-post-cover{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px 0px 0px 0px;
+        }
+        #content .widget-cover ul.list-post-cover li {
+            width: 48%;
+        }
+        #content .widget-cover ul.list-post-cover li:nth-child(even) {
+            padding-left: 35px;
+        }
+        #content .widget-cover ul.list-post-cover li:last-child {
+            display: none;
+        }
+        #wp-menu-respon{
+            position: fixed;
+            z-index: 99;
+        }
+        #icon-menu-respon{
+            top: 27px;
+            left: 261px;
+            display: block;
+        }
+    }
+    @media screen and (max-width: 916px){
+        #widget-new{
+            padding: 0 27px 0 0;;
+        }
+        #widget-fanpage {
+            width: 292px;
+            padding: 0 0 14px 0;
+        }
+    }
+    @media screen and (max-width: 854px){
+        .post-detail a{
+            padding-right: 15px;
+        }
+        #post-feature .post-desc{
+            float: none;
+            width: 100%;
+        }
+        #content .widget-cover ul.list-post-cover{
+            display: none;
+         }
+         #post-feature{
+             width: 100%;
+             float: none;
+         }
+         .post-detail{
+             display: flex;
+         }
+         #post-feature .post-desc {
+             width: 100%;
+             float: none;
+             padding-left: 15px;
+             display: block;
+         }
+         #widget-content ul.list-post-feature {
+             width: 100%;
+             display: flex;
+             margin: 15px 0px 0px 0px;
+         }
+         #widget-content ul.list-post-feature li{
+             margin: 0;
+         }
+       
+    }
+/* Ipad dọc 768x1024 */
+    @media screen and (max-width: 768px){
+        .post-thumb{
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+        .post-thumb img{
+            width: 100%;
+            height: auto;
+        }
+          
+          .post-infor{
+              float: none;
+              width: 100%;
+          }
+          #content .widget-cover ul.list-post-cover{
+             display: none;
+          }
+          #post-feature{
+              width: 100%;
+              float: none;
+          }
+          .post-detail{
+              display: flex;
+          }
+          #post-feature .post-desc {
+              width: 100%;
+              float: none;
+              padding-left: 15px;
+              display: block;
+          }
+          #widget-content ul.list-post-feature {
+              width: 100%;
+              display: flex;
+              margin: 15px 0px 0px 0px;
+          }
+          #widget-content ul.list-post-feature li{
+              margin: 0;
+          }
+       
+      
+    }
+/* Tablet nhỏ(480x640) */
+    @media screen and (max-width: 480px){
+           /* ===============CONTENT+++++++++ */
+           #news-offer .list-post-offer li:nth-child(n){
+            width: 49%;
+            margin-right: 2%
+        }
+        #news-offer .list-post-offer li:nth-child(2n){
+            margin-right: 0px;
+        }
+        #post-feature .post-detail {
+            display: block;
+        }
+        #post-feature .post-detail a img {
+            width: 100%;
+            height: auto;
+        }
+        #post-feature .post-detail a {
+            float: none;
+        }
+        #widget-content ul.list-post-feature {
+            width: 100%;
+            display: block;
+            margin: 15px 0px 0px 0px;
+        }
+        #widget-content ul.list-post-feature li{
+            margin-bottom: 7px;
+        }
+        #widget-category{
+            padding: 0 0 20px 0;
+        }
+    }
+      
